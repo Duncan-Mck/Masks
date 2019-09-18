@@ -1,0 +1,2777 @@
+{
+  "heroes": [
+    {
+      "hero_id": 0,
+      "playbook_id": 0,
+      "real_name": "",
+      "hero_name": "",
+      "mundane_desc": "",
+      "hero_desc": "",
+      "stats": {
+        "potential": 0,
+        "advancements": [
+          {
+            "id": 0,
+            "desc": "",
+            "level": "L"
+          }
+        ],
+        "labels": [
+          {
+            "id": 0,
+            "value": 0
+          }
+        ],
+        "conditions": [
+          {
+            "id": 0,
+            "checked": true
+          }
+        ]
+      },
+      "moves": [
+        {
+          "pb_id": 0,
+          "move_id": 0,
+          "choice": "Fill in the blank or checkbox"
+        }
+      ]
+    }
+  ],
+  "playbooks": [
+    {
+      "playbook_id": 0,
+      "source_id": 0,
+      "playbook_name": "The Beacon",
+      "playbook_desc": "",
+      "moment_of_truth": "This is the moment when you show them exactly why you belong here. You do any one thing, take out any one enemy, no matter how insane, no matter how ridiculous, because that’s you. Their jaws are gonna drop when you’re done. Of course, pulling off a stunt like this tends to bring unwanted attention and a dangerous reputation...",
+      "team_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you share a triumphant celebration with someone, tell them how they're awesome and add a Team to the pool. If they tell you how you're awesome in return, add another Team to the pool.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you share a vulnerability or weakness with someone, ask them to confirm or deny that you should be here. If they confirm it, mark potential and give them Influence over you. If they deny it, mark Angry and shift one Label up and one Label down, your choice.",
+              "options": []
+            }
+          ]
+        }
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "Take another move from your playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "Take another move from your playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "Someone permanently loses Influence over you; add +1 to a Label",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "Rearrange your Labels as you choose, and add +1 to a Label",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "Unlock your Moment of Truth",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "Unlock your Moment of Truth after it's been used once",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "Change playbooks",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "Take an adult move",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "Take an adult move",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "Lock a Label, and add +1 to a Label of your choice",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "Retire from the life or become a paragon of the city",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 2,
+      "abilities": [
+        {
+          "id": 0,
+          "description": "bows and trick arrows"
+        },
+        {
+          "id": 1,
+          "description": "swords"
+        },
+        {
+          "id": 2,
+          "description": "camouflage and stealth"
+        },
+        {
+          "id": 3,
+          "description": "martial arts"
+        },
+        {
+          "id": 4,
+          "description": "phasing"
+        },
+        {
+          "id": 5,
+          "description": "acrobatics"
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": "How did you gain your skills?"
+        },
+        {
+          "id": 1,
+          "question": "When did you first put on your costume?"
+        },
+        {
+          "id": 2,
+          "question": "Who, outside of the team, thinks you shouldn't be a superhero?"
+        },
+        {
+          "id": 3,
+          "question": "Why do you try to be a hero?"
+        },
+        {
+          "id": 4,
+          "question": "Why do you care about the team?"
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "desc": "_ is awesome, and you take every chance you get to hang out with them."
+        },
+        {
+          "id": 1,
+          "desc": "You've got to prove yourself to _ before you feel like a real hero."
+        }
+      ],
+      "influence": {
+        "desc": "You are so excited to be here. Give Influence over you to three of your teammates.",
+        "options": []
+      },
+      "starting_number_of_moves": 2,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "Straight. Up. Creepin'.",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you scope out a person or place, roll + Mundane. On a 10+ ask two. On a 7-9, ask one.",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": "what's my best way in/out?"
+                },
+                {
+                  "id": 1,
+                  "desc": "what happened here recently?"
+                },
+                {
+                  "id": 2,
+                  "desc": "what here is worth grabbing?"
+                },
+                {
+                  "id": 3,
+                  "desc": "who or what here is not what they seem?"
+                },
+                {
+                  "id": 4,
+                  "desc": "whose place is this?"
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "desc": "On a miss, you find yourself in over your head. The GM will tell you why this is a bad spot.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 1,
+          "title": "No powers and not nearly enough training",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "You're always picking up new gear to keep yourself in the game. Whenever you pick up a new piece of gear, you can write it in as a new ability if this line is empty.",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": "_"
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "desc": "The first time you use each piece of gear to directly engage a threat, unlease your powers, or defend someone, you can roll + Mundane instead of the normal Label.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            },
+            {
+              "acting": true,
+              "trigger_move_id": 1,
+              "trigger_move_type": "P"
+            },
+            {
+              "acting": true,
+              "trigger_move_id": 4,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Won't let you down",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you help a teammate, you can spend 2 out of the Team pook to add +2 to their roll.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "T"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Pretty much a superhero",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you bring up your superhero name to someone important (your call) for the first time, roll + Savior. On a hit, they've heard of you; say which of your exploits they've heard about and which Label they think applies. On a 7-9, the GM will tell you something else they've heard, and pick a second Label they assign to you. On a miss, they don't take you seriously or mistrust you moving forward.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 4,
+          "title": "C'mon Lucky",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "You have a pet of some kind, a smaller companion that helps you out. Detail it. Choose three basic moves and tell the GM how it helps you with those moves. Whenever your pet could help you, take +1 to that move. If your pet ever gets hurt, treat it as taking a powerful blow.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 5,
+          "title": "Suck it Domitian",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you stand strong while dramatically under fire, roll + Savior instead of + Danger to directly engage a threat.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        }
+      ],
+      "playbook_special": {
+        "id": 0,
+        "title": "Drives",
+        "desc": "Choose four drives to mark at the start of play. When you fulfill a marked drive, strike it out, and choose one:  mark potential, clear a condition, take Influence over someone involved. When your four marked drives are all struck out, choose and mark four new drives. When all drives are struck out, change playbooks, retire from the life, or become a paragon of the city.",
+        "drives": [
+          {
+            "id": 0,
+            "desc": "lead the team successfully in battle"
+          },
+          {
+            "id": 1,
+            "desc": "kiss someone dangerous"
+          },
+          {
+            "id": 2,
+            "desc": "punch someone you probably shouldn't"
+          },
+          {
+            "id": 3,
+            "desc": "help a teammate when they most need you"
+          },
+          {
+            "id": 4,
+            "desc": "take down a threat all on your own"
+          },
+          {
+            "id": 5,
+            "desc": "outperform an adult hero"
+          },
+          {
+            "id": 6,
+            "desc": "pull off a ridiculous stunt"
+          },
+          {
+            "id": 7,
+            "desc": "save a teammates life"
+          },
+          {
+            "id": 8,
+            "desc": "get drunk or high with a teammate"
+          },
+          {
+            "id": 9,
+            "desc": "drive a gantastical vehicle"
+          },
+          {
+            "id": 10,
+            "desc": "get a new costume"
+          },
+          {
+            "id": 11,
+            "desc": "get a new hero name"
+          },
+          {
+            "id": 12,
+            "desc": "earn the respect of a hero you admire"
+          },
+          {
+            "id": 13,
+            "desc": "make out with a teammate"
+          },
+          {
+            "id": 14,
+            "desc": "punch out a teammate"
+          },
+          {
+            "id": 15,
+            "desc": "break up with someone"
+          },
+          {
+            "id": 16,
+            "desc": "stop a fight with calm words"
+          },
+          {
+            "id": 17,
+            "desc": "tell someone your true feelings for them"
+          },
+          {
+            "id": 18,
+            "desc": "travel to an incredible place (or time)"
+          },
+          {
+            "id": 19,
+            "desc": "reject someone who tells you 'you shouldn't be here'"
+          }
+        ]
+      }
+    },
+    {
+      "playbook_id": 1,
+      "source_id": 0,
+      "playbook_name": "The Bull",
+      "playbook_desc": "",
+      "moment_of_truth": "This is what you do best. You let loose, all the pent up strength and rage and glee, and you break whatever stands in your way. You are a walking demolition crew. What can stand up to you? Nothing. Not buildings. Not structures. Not enemies. Nothing. Of course, now the people who changed you know exactly where to find you...",
+      "team_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you share a triumphant celebration with someone, make them your love or rival immediately to mark potential. If they are already your love or rival, take Influence over them and mark potential.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you share a vulnerability or weakness with someone, give them Influence and hold 2. Spend that hold to help them as if it were Team in the pool.",
+              "options": []
+            }
+          ]
+        }
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "Take another move from your playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "Take another move from your playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "Someone permanently loses Influence over you; add +1 to a Label",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "Rearrange your Labels as you choose, and add +1 to a Label",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "Unlock your Moment of Truth",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "Choose another two roles for The Bull's Heart",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "Unlock your Moment of Truth after it's been used once",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "Change playbooks",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "Take an adult move",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "Take an adult move",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "Lock a Label, and add +1 to a Label of your choice",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "Retire from the life or become a paragon of the city",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 3,
+      "abilities": [
+        {
+          "id": 0,
+          "description": "superhumanly tough"
+        },
+        {
+          "id": 1,
+          "description": "incredibly strong"
+        },
+        {
+          "id": 2,
+          "description": "uniquely skilled at fighting"
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": "Who changed you?"
+        },
+        {
+          "id": 1,
+          "question": "How did you escape from them?"
+        },
+        {
+          "id": 2,
+          "question": "Who, outside the team, tries to take care of you now?"
+        },
+        {
+          "id": 3,
+          "question": "Why do you try to be a hero?"
+        },
+        {
+          "id": 4,
+          "question": "Why do you care about the team?"
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "note": "_ is your love. You've opened up to them about the worst parts of your past."
+        },
+        {
+          "id": 1,
+          "note": "_ is your rival. They tried to control you at a crucial moment."
+        }
+      ],
+      "influence": {
+        "desc": "You're selective about who you let in. Give your love and rival Influence over you, but that's it.",
+        "options": []
+      },
+      "starting_number_of_moves": 2,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "Thick and thin skinned",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Whenever you have Angry marked, take +1 ongoing to unleash your powers.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 1,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "You've got a head you don't need",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you provoke someone with obvious threats and shows of force, roll + Danger instead of + Superior",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 6,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Punch everyone",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Whenever you charge into a fight without hedging your bets, you can shift your Danger up and any other Label down.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 3,
+          "title": "There when it matters",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you defend someone, on a hit you can hold 1 instead of choosing one from the list. Spend your hold when they are in danger later to arrive on the scene ready to help.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 4,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "In a china shop",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you directly engage a threat, you can cause significant collateral damage to your environment to choose an additional option, even on a miss.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Physics? What physics?",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you unleash your powers to barrel through an insurmountable barrir, roll + Danger instead of + Freak.",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 1,
+              "trigger_move_type": "P"
+            }
+          ]
+        }
+      ],
+      "playbook_special": [
+        {
+          "id": 1,
+          "title": "The Bull's Heart",
+          "desc": "You always have exactly one love and one rival. You can change your love or rival at any time; give the new subject of your affections or disdain Influence over you. Take +1 ongoing to any action that impresses your love or frustrates your rival.",
+          "love": "",
+          "rival": "",
+          "roles": [
+            {
+              "id": 0,
+              "title": "Defender",
+              "desc": "When you leap to defend your love or rival in battle, roll + Danger instead of + Savior to defend them.",
+              "triggers": [
+                {
+                  "acting": true,
+                  "trigger_move_id": 4,
+                  "trigger_move_type": "P"
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "title": "Friend",
+              "desc": "When you comfort or support your love or rival, mark potential on a hit. When your love or rival comforts or supports you, mark potential when they roll a hit.",
+              "triggers": [
+                {
+                  "acting": true,
+                  "trigger_move_id": 2,
+                  "trigger_move_type": "P"
+                },
+                {
+                  "acting": false,
+                  "trigger_move_id": 2,
+                  "trigger_move_type": "P"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Listener",
+              "desc": "When you pierce the mask of your love or vial, you can always let them ask you a question to ask them an additional question in turn, even on a miss. These additional questions do not have to be on the list.",
+              "triggers": [
+                {
+                  "acting": true,
+                  "trigger_move_id": 3,
+                  "trigger_move_type": "P"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Enabler",
+              "desc": "When you provoke your love or rival, roll + Danger if you are trying to provoke them to rash or poorly thought out action.",
+              "triggers": [
+                {
+                  "acting": true,
+                  "trigger_move_id": 6,
+                  "trigger_move_type": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "playbook_id": 2,
+      "source_id": 0,
+      "playbook_name": "The Deliquent",
+      "playbook_desc": "",
+      "moment_of_truth": "This is when you show them what you really are. Whether you’re the hero underneath the rebel facade...or the one who can make the hard choices heroes can’t make. You do whatever it takes to show that truth, whether it’s saving the day from a terrible villain or stopping a bad guy once and for all. Of course, once you’ve shown what you really are, there’s no going back to playing the clown...",
+      "team_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you share a triumphant celebration with someone, ask them if they think you’re cool. If they say yes, give them Influence and take Influence over them. If they say no, mark a condition or spurn them immediately. If they’re a teammate, then either way, add a Team to the pool. ",
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you share a vulnerability or weakness with someone, give them Influence over you, and ask them who they’d like you to be. Mark potential if you show them that person. If they’re a teammate, add a Team to the pool no matter what.",
+              "options": []
+            }
+          ]
+        }
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "Take another move from your playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "Take another move from your playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "Someone permanently loses Influence over you; add +1 to a Label",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "Rearrange your Labels as you choose, and add +1 to a Label",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "Unlock your Moment of Truth",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "Add +1 to any two Labels",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "Unlock your Moment of Truth after you've used it once",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "Change playbooks",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "Take an adult move",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "Take an adult move",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "Lock a Label, and add +1 to a Label of your choice",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "Retire from the life or become paragon of the city",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 2,
+      "abilities": [
+        {
+          "id": 0,
+          "description": "teleportation"
+        },
+        {
+          "id": 1,
+          "description": "illusions"
+        },
+        {
+          "id": 2,
+          "description": "gadgetry and hacking"
+        },
+        {
+          "id": 3,
+          "description": "psychic weapons"
+        },
+        {
+          "id": 4,
+          "description": "emotion control"
+        },
+        {
+          "id": 5,
+          "description": "power negation"
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": "How did you get your powers?"
+        },
+        {
+          "id": 1,
+          "question": "What do you do for fun?"
+        },
+        {
+          "id": 2,
+          "question": "Who, outside the team, thinks better of you than you do?"
+        },
+        {
+          "id": 3,
+          "question": "Why do you try to be a hero?"
+        },
+        {
+          "id": 4,
+          "question": "Why do you care about the team?"
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "note": "You keep trying to impress _ with your antics"
+        },
+        {
+          "id": 1,
+          "note": "You and _ pulled an awesome (if illegal) stunt together."
+        }
+      ],
+      "influence": {
+        "desc": "You care way more than you let on. Give three teammates Influence over you.",
+        "options": []
+      },
+      "starting_number_of_moves": 3,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "Mary Contrary",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When someone tries to pierce your mask, comfort or support you, or provoke you, you can interfere. Roll + Superior. On a hit, they take a -2 on their roll. On a 10+, you also take Influence over them or clear a condition. On a miss, they get a 10+ no matter what they rolled and mark a condition of their choice.",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ],
+          "triggers": [
+            {
+              "acting": false,
+              "trigger_move_id": 2,
+              "trigger_move_type": "P"
+            },
+            {
+              "acting": false,
+              "trigger_move_id": 3,
+              "trigger_move_type": "P"
+            },
+            {
+              "acting": false,
+              "trigger_move_id": 6,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "I don't care what you think!",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Whenever you reject others' Influence, add +2 to your roll.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Team? What team?",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you use Team selfishly, clear a condition or mark potential. The first time in a session that you use Team to help a teammate, take +1 forward.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Criminal mind",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you assess the situation, you can always ask one of the following questions, even on a miss",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": "what here is useful or valuable to me?"
+                },
+                {
+                  "id": 1,
+                  "desc": "how could I best infuriate or provoke _?"
+                },
+                {
+                  "id": 2,
+                  "desc": "what's the best way in/way past?"
+                }
+              ]
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 5,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Troublemaker",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you help a teammate through destructive, criminal, or rule-breaking actions, you can give them a +2 instead of a +1 when you spend a Team from the pool.",
+              "options": []
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Are you watching closely?",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you mislead, distract, or trick someone, roll + Superior. On a hit, they are fooled, at least for a moment. On a 10+, choose three. On a 7-9, choose two.",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": "you get an opportunity"
+                },
+                {
+                  "id": 1,
+                  "desc": "you expose a weakness or flaw"
+                },
+                {
+                  "id": 2,
+                  "desc": "you confuse them for some time"
+                },
+                {
+                  "id": 3,
+                  "desc": "you avoid further entanglement"
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "desc": "On a miss, you're hopelessly embroiled in it and under pressure; mark a condition.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        }
+      ],
+      "playbook_special": []
+    },
+    {
+      "playbook_id": 3,
+      "source_id": 0,
+      "playbook_name": "The Doomed",
+      "playbook_des": "",
+      "moment_of_truth": "The prickly tingling fear of your doom, always in your head—it holds you back most of the time. But right here, right now? It gives you the confidence to do anything. After all, what’s the worst that could happen? Is it worse than your doom? Do impossible things. Do anything. But mark a doomsign after you’re finished.",
+      "team_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "When you share a triumphant celebration with someone, give them Influence over you and spend 1 Team from the pool to clear one box on your doom track.",
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "",
+          "instructions": [
+            {
+              "id": 1,
+              "desc": "When you share a vulnerability or weakness with someone, give them Influence over you and ask if they honestly think there’s hope for you. If they say yes, mark potential or clear one box of your doom track. If they say no, mark a condition or mark your doom track.",
+              "options": []
+            }
+          ]
+        }
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "Take a move from another playbook",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "Someone permanently loses Influence over you; add +1 to a Label",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "Rearrange your Labels as you choose, and add +1 to a Label",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "Unlock your Moment of Truth",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "Clear a doomsign; you lose access to that move for now",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "Get burn and three flares (from the Nova's playbook)",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "Unlock your Moment of Truth after you've used it once",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "Confront your doom on your terms; if you survive, change playbooks.",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "Take an adult move",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "Take an adult move",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "Lock a Label, and add +1 to a Label of your choice",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "Become a paragon of the city for however long you have left",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 3,
+      "abilities": [
+        {
+          "id": 0,
+          "description": "telekinesis"
+        },
+        {
+          "id": 1,
+          "description": "body transmutation"
+        },
+        {
+          "id": 2,
+          "description": "memory manipulation"
+        },
+        {
+          "id": 3,
+          "description": "superhuman strength and speed"
+        },
+        {
+          "id": 4,
+          "description": "psychic constructs"
+        },
+        {
+          "id": 5,
+          "description": "viatlity absorption"
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": "When did you first learn of your doom?"
+        },
+        {
+          "id": 1,
+          "question": "Where did you get your sanctuary?"
+        },
+        {
+          "id": 2,
+          "question": "Why do you oppose your nemesis?"
+        },
+        {
+          "id": 3,
+          "question": "Who, outside of the team, is crucial to defeating your nemesis?"
+        },
+        {
+          "id": 4,
+          "question": "Why does the team matter to you?"
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "note": "You told _ all about your doom and the danger you're in."
+        },
+        {
+          "id": 1,
+          "note": "You'd love to kiss _ before your doom comes."
+        }
+      ],
+      "influence": {
+        "desc": "These people matter for what you need to do. Give Influence to two of your teammates.",
+        "options": []
+      },
+      "starting_number_of_moves": 1,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "Dark Visions",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Mark your doom track to have a vision about the situation at hand. After the vision, ask the GM a question; they will answer it honestly.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 1,
+          "title": "Infinite Powers",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Mark your doom track to use an ability from any playbook, one time.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 2,
+          "title": "Portal",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Mark your doom track to appear in a scene with anyone you want.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 3,
+          "title": "Burning Bright",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Mark your doom track to ignore one of the GM's stated requirements when you call upon the resources of your sanctuary.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 4,
+          "title": "Bolstered",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Mark your doom track to use an Adult Move one time.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        },
+        {
+          "id": 5,
+          "title": "Doom",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "Your doom arrives; confront it and perish.",
+              "options": []
+            }
+          ],
+          "triggers": []
+        }
+      ],
+      "playbook_special": [
+        {
+          "id": 2,
+          "title": "Nemesis",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Santuary",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Doom",
+          "count": 0,
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "playbook_id": 0,
+      "source_id": 0,
+      "moment_of_truth": "",
+      "team_moves": [
+        {}
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 0,
+      "abilities": [
+        {
+          "id": 0,
+          "description": ""
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": ""
+        },
+        {
+          "id": 1,
+          "question": ""
+        },
+        {
+          "id": 2,
+          "question": ""
+        },
+        {
+          "id": 3,
+          "question": ""
+        },
+        {
+          "id": 4,
+          "question": ""
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "note": "",
+          "hero_id": 0
+        }
+      ],
+      "influence": {
+        "desc": "",
+        "options": []
+      },
+      "starting_number_of_moves": 0,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        }
+      ],
+      "playbook_special": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "playbook_id": 0,
+      "source_id": 0,
+      "moment_of_truth": "",
+      "team_moves": [
+        {}
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 0,
+      "abilities": [
+        {
+          "id": 0,
+          "description": ""
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": ""
+        },
+        {
+          "id": 1,
+          "question": ""
+        },
+        {
+          "id": 2,
+          "question": ""
+        },
+        {
+          "id": 3,
+          "question": ""
+        },
+        {
+          "id": 4,
+          "question": ""
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "note": "",
+          "hero_id": 0
+        }
+      ],
+      "influence": {
+        "desc": "You are so excited to be here. Give Influence over you to three of your teammates.",
+        "options": []
+      },
+      "starting_number_of_moves": 0,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        }
+      ],
+      "playbook_special": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "playbook_id": 0,
+      "source_id": 0,
+      "moment_of_truth": "",
+      "team_moves": [
+        {}
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 0,
+      "abilities": [
+        {
+          "id": 0,
+          "description": ""
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": ""
+        },
+        {
+          "id": 1,
+          "question": ""
+        },
+        {
+          "id": 2,
+          "question": ""
+        },
+        {
+          "id": 3,
+          "question": ""
+        },
+        {
+          "id": 4,
+          "question": ""
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "note": "",
+          "hero_id": 0
+        }
+      ],
+      "influence": {
+        "desc": "You are so excited to be here. Give Influence over you to three of your teammates.",
+        "options": []
+      },
+      "starting_number_of_moves": 0,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        }
+      ],
+      "playbook_special": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "playbook_id": 0,
+      "source_id": 0,
+      "moment_of_truth": "",
+      "team_moves": [
+        {}
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 0,
+      "abilities": [
+        {
+          "id": 0,
+          "description": ""
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": ""
+        },
+        {
+          "id": 1,
+          "question": ""
+        },
+        {
+          "id": 2,
+          "question": ""
+        },
+        {
+          "id": 3,
+          "question": ""
+        },
+        {
+          "id": 4,
+          "question": ""
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "note": "",
+          "hero_id": 0
+        }
+      ],
+      "influence": {
+        "desc": "You are so excited to be here. Give Influence over you to three of your teammates.",
+        "options": []
+      },
+      "starting_number_of_moves": 0,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        }
+      ],
+      "playbook_special": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "playbook_id": 0,
+      "source_id": 0,
+      "moment_of_truth": "",
+      "team_moves": [
+        {}
+      ],
+      "advancement": [
+        {
+          "id": 0,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 1,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 2,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 3,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 4,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 5,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 6,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 7,
+          "desc": "",
+          "action_id": 0,
+          "level": "L"
+        },
+        {
+          "id": 8,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 9,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 10,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 11,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 12,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        },
+        {
+          "id": 13,
+          "desc": "",
+          "action_id": 0,
+          "level": "G"
+        }
+      ],
+      "number_of_abilities": 0,
+      "abilities": [
+        {
+          "id": 0,
+          "description": ""
+        }
+      ],
+      "playbook_backstory": [
+        {
+          "id": 0,
+          "question": ""
+        },
+        {
+          "id": 1,
+          "question": ""
+        },
+        {
+          "id": 2,
+          "question": ""
+        },
+        {
+          "id": 3,
+          "question": ""
+        },
+        {
+          "id": 4,
+          "question": ""
+        }
+      ],
+      "relationships": [
+        {
+          "id": 0,
+          "note": "",
+          "hero_id": 0
+        }
+      ],
+      "influence": {
+        "desc": "You are so excited to be here. Give Influence over you to three of your teammates.",
+        "options": []
+      },
+      "starting_number_of_moves": 0,
+      "playbook_moves": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ],
+          "triggers": [
+            {
+              "acting": true,
+              "trigger_move_id": 0,
+              "trigger_move_type": "P"
+            }
+          ]
+        }
+      ],
+      "playbook_special": [
+        {
+          "id": 0,
+          "title": "",
+          "instructions": [
+            {
+              "id": 0,
+              "desc": "",
+              "options": [
+                {
+                  "id": 0,
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "player_moves": [
+    {
+      "id": 0,
+      "title": "Directly Engage a Threat",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you directly engage a threat, roll + Danger. On a hit, trade blows. On a 10+, pick two. On a 7-9, pick one.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "resist or avoid their blows"
+            },
+            {
+              "id": 1,
+              "desc": "take something from them"
+            },
+            {
+              "id": 2,
+              "desc": "create an opportunity for your allies"
+            },
+            {
+              "id": 3,
+              "desc": "impress, surprise, or frighten the opposition"
+            }
+          ]
+        }
+      ],
+      "adult": false,
+      "label_id": 1
+    },
+    {
+      "id": 1,
+      "title": "Unleash Your Powers",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you unleash your powers to overcome an obstacle, reshape your environment, or extend your senses, roll + Freak. On a hit, you do it. On a 7-9, mark a condition or the GM will tell you how the effect is unstable or temporary.",
+          "options": []
+        }
+      ],
+      "adult": false,
+      "label_id": 2
+    },
+    {
+      "id": 2,
+      "title": "Comfort or Support",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you comfort or support someone, roll + Mundane. On a hit, they hear you: they mark potential, clear a condition, or shift Labels if they open up to you. On a 10+, you can also add a Team to the pool or clear a condition yourself.",
+          "options": []
+        }
+      ],
+      "adult": false,
+      "label_id": 5
+    },
+    {
+      "id": 3,
+      "title": "Pierce the Mask",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you pierce someone’s mask to see the person beneath, roll + Mundane. On a 10+, ask three. On a 7-9, ask one.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "what are you really planning?"
+            },
+            {
+              "id": 1,
+              "desc": "what do you want me to do?"
+            },
+            {
+              "id": 2,
+              "desc": "what do you intend to do?"
+            },
+            {
+              "id": 3,
+              "desc": "how could I get your character to ___?"
+            },
+            {
+              "id": 4,
+              "desc": "how could I gain Influence over you?"
+            }
+          ]
+        }
+      ],
+      "adult": false,
+      "label_id": 5
+    },
+    {
+      "id": 4,
+      "title": "Defend",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you defend someone or something from an immediate threat, roll + Savior. For NPC threats: on a hit, you keep them safe and choose one. On a 7-9, it costs you: expose yourself to danger or escalate the situation,",
+          "options": [
+            {
+              "id": 0,
+              "desc": "add a Team to the pool"
+            },
+            {
+              "id": 1,
+              "desc": "take Influence over someone you protect"
+            },
+            {
+              "id": 2,
+              "desc": "clear a condition"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "desc": "For PC threats: on a hit, give them -2 to their roll. On a 7-9, you expose yourself to cost, retribution, or judgment.",
+          "options": []
+        }
+      ],
+      "adult": false,
+      "label_id": 3
+    },
+    {
+      "id": 5,
+      "title": "Assess the Situation",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you assess the situation, roll + Superior. On a 10+, ask two. On a 7-9, ask one. Take +1 while acting on the answers",
+          "options": [
+            {
+              "id": 0,
+              "desc": "what here can I use to ________?"
+            },
+            {
+              "id": 1,
+              "desc": "what here is the biggest threat? "
+            },
+            {
+              "id": 2,
+              "desc": "what here is in the greatest danger? "
+            },
+            {
+              "id": 3,
+              "desc": "who here is most vulnerable to me?"
+            },
+            {
+              "id": 4,
+              "desc": "how could we best end this quickly"
+            }
+          ]
+        }
+      ],
+      "adult": false,
+      "label_id": 4
+    },
+    {
+      "id": 6,
+      "title": "Provoke Someone",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you provoke someone susceptible to your words, say what you’re trying to get them to do and roll + Superior. For NPCs: on a 10+, they rise to the bait and do what you want. On a 7-9, they can instead choose one.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "they stumble: you take +1 forward against them"
+            },
+            {
+              "id": 1,
+              "desc": "they err: you gain a critical opportunity"
+            },
+            {
+              "id": 2,
+              "desc": "they overreact: you gain Influence over them"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "desc": "For PCs: On a 10+, both. On a 7-9, choose one.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "if they do it, add a Team to the pool"
+            },
+            {
+              "id": 1,
+              "desc": "if they don’t do it, they mark a condition"
+            }
+          ]
+        }
+      ],
+      "adult": false,
+      "label_id": 4
+    },
+    {
+      "id": 7,
+      "title": "Take a Powerful Blow",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you take a powerful blow, roll + conditions marked. On a 10+, choose one.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "you must remove yourself from the situation: flee, pass out, etc."
+            },
+            {
+              "id": 1,
+              "desc": "you lose control of yourself or your powers in a terrible way"
+            },
+            {
+              "id": 2,
+              "desc": "two options from the 7-9 list"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "desc": "On a 7-9, choose one.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "you lash out verbally: provoke a teammate to foolhardy action or take advantage of your Influence to inflict a condition"
+            },
+            {
+              "id": 1,
+              "desc": "you give ground; your opposition gets an opportunity"
+            },
+            {
+              "id": 1,
+              "desc": "you struggle past the pain; mark two conditions"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "desc": "On a miss, you stand strong. Mark potential as normal, and say how you weather the blow.",
+          "options": []
+        }
+      ],
+      "adult": false,
+      "label_id": 0
+    },
+    {
+      "id": 7,
+      "title": "Wield Your Powers",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you wield your powers with precision or grace, roll + Freak. On a hit, choose one. On a 10+, choose two.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "take hold of something vulnerable to you"
+            },
+            {
+              "id": 1,
+              "desc": "create something useful from your environment"
+            },
+            {
+              "id": 2,
+              "desc": "neutralize an opponent or threat, at least for now "
+            }
+          ]
+        }
+      ],
+      "adult": true,
+      "label_id": 0
+    },
+    {
+      "id": 8,
+      "title": "Overwhelm a Vulnerable Foe",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you overwhelm a vulnerable foe, roll + Danger. On a hit, the fight's over. They're done. On a 10+, choose one. On a 7-9 choose two.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "you take a powerful blow in turn"
+            },
+            {
+              "id": 1,
+              "desc": "you hurt your foe more than you intended"
+            },
+            {
+              "id": 2,
+              "desc": "you cause serious collateral damage"
+            }
+          ]
+        }
+      ],
+      "adult": true,
+      "label_id": 1
+    },
+    {
+      "id": 9,
+      "title": "Persuade With Best Interests",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you persuade someone with their best interests, roll + Superior. If they're an NPC, on a 10+ they but it and act accordingly. On a 7-9, they need concrete assurance, right now.",
+          "options": []
+        },
+        {
+          "id": 1,
+          "desc": "If they're a PC, on a hit, they can mark potential or shift their own Labels if hey do what you want. On a 10+, take Influence over them as well.",
+          "options": []
+        }
+      ],
+      "adult": true,
+      "label_id": 4
+    },
+    {
+      "id": 10,
+      "title": "Empathize",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you openly empathize with someone, roll + Mundane. On a hit, they must reveal a vulnerability or mark a condition. On a 10+, take Influence over them as well.",
+          "options": []
+        }
+      ],
+      "adult": true,
+      "label_id": 5
+    },
+    {
+      "id": 11,
+      "title": "Stand up for Something",
+      "instructions": [
+        {
+          "id": 0,
+          "desc": "When you stand up for something, roll + Savior. On a 10+ choose two. On a 7-9, choose one.",
+          "options": [
+            {
+              "id": 0,
+              "desc": "listeners can't keep doing what they're doing"
+            },
+            {
+              "id": 1,
+              "desc": "listeners can't flee without addressing you"
+            },
+            {
+              "id": 2,
+              "desc": "listeners can't attack you without losing status or position"
+            }
+          ]
+        }
+      ],
+      "adult": true,
+      "label_id": 3
+    }
+  ],
+  "labels": [
+    {
+      "id": 0,
+      "label_title": "Conditions Marked",
+      "desc": "Count of your marked conditions."
+    },
+    {
+      "id": 1,
+      "label_title": "Danger",
+      "desc": "seeing yourself as threatening, strong, bloody-knuckled, and risky. Other people see you as a danger when they think they should steer clear of you because you might bring them harm. You see yourself as a danger when you believe you can take down other dangerous threats, and when you think you yourself are a threat to other people."
+    },
+    {
+      "id": 2,
+      "label_title": "Freak",
+      "desc": "seeing yourself as strange, unusual, unique, and powerful. Other people see you as a freak when they think you’re odd, unlike them, something unnatural or outside of their understanding. You see yourself as a freak when you accept and own the things you can do that no one else can, and when you think you don’t belong with the people and the world around you."
+    },
+    {
+      "id": 3,
+      "label_title": "Savior",
+      "desc": "seeing yourself as defending, guarding, protecting, and stalwart. Other people see you as a savior when they think of you as noble or selfsacrificing, or a bit overbearing and moralizing. You see yourself as a savior when you think of yourself as a martyr, someone who gladly sacrifices to protect and defend others."
+    },
+    {
+      "id": 4,
+      "label_title": "Superior",
+      "desc": "seeing yourself as smart, capable, crafty, and quick. Other people see you as superior when they think you’re the smartest person in the room, an arrogant and egotistical jerk. You see yourself as superior when you think you’re cleverer than everyone else, and when you know exactly what to say to make the people around you do what you want."
+    },
+    {
+      "id": 5,
+      "label_title": "Mundane",
+      "desc": "seeing yourself as normal, human, empathetic, and understanding. Other people see you as mundane when they think of you as all too normal and uninteresting, but also comprehending and sympathetic. You see yourself as mundane when you think you’re regular, just a person, not special, and focused on normal human things like feelings and emotions."
+    }
+  ],
+  "conditions": [
+    {
+      "id": 0,
+      "title": "Afraid",
+      "desc": "-2 to directly engage a threat",
+      "effect": [
+        {
+          "mod": -2,
+          "move_id": 0,
+          "move_type": "P"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Angry",
+      "desc": "-2 to comfort or support or pierce the mask",
+      "effect": [
+        {
+          "mod": -2,
+          "move_id": 2,
+          "move_type": "P"
+        },
+        {
+          "mod": -2,
+          "move_id": 3,
+          "move_type": "P"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Guilty",
+      "desc": "-2 to provoke someone or assess the situation",
+      "effect": [
+        {
+          "mod": -2,
+          "move_id": 5,
+          "move_type": "P"
+        },
+        {
+          "mod": -2,
+          "move_id": 6,
+          "move_type": "P"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hopeless",
+      "desc": "-2 to unleash your powers",
+      "effect": [
+        {
+          "mod": -2,
+          "move_id": 1,
+          "move_type": "P"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Insecure",
+      "desc": "-2 to defend someone or reject others' influence",
+      "effect": [
+        {
+          "mod": -2,
+          "move_id": 4,
+          "move_type": "P"
+        }
+      ]
+    }
+  ]
+}
