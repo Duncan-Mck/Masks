@@ -704,13 +704,8 @@
           "instructions": [
             {
               "id": 0,
-              "desc": "When you unleash your powers to barrel through an insurmountable barrir, roll + Danger instead of + Freak.",
-              "options": [
-                {
-                  "id": 0,
-                  "desc": ""
-                }
-              ]
+              "desc": "When you unleash your powers to barrel through an insurmountable barrier, roll + Danger instead of + Freak.",
+              "options": []
             }
           ],
           "triggers": [
